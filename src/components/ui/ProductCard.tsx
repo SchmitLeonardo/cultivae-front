@@ -5,6 +5,7 @@ import { Star, ShoppingCart, Truck } from "lucide-react";
 import { Product } from "@/types/index";
 import { useCart } from "@/hooks/useCart";
 import { useState } from "react";
+import { formatCurrency } from "@/utils/formatters";
 
 interface ProductCardProps {
   product: Product;
@@ -94,7 +95,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             <div>
               <p className="text-xs text-neutral-500">Preço</p>
               <p className="text-2xl font-bold text-primary-600">
-                R$ {product.price.toFixed(2)}
+                {formatCurrency(product.price)}
               </p>
             </div>
             <div className="flex items-center gap-2 bg-neutral-100 px-2 py-1 rounded">

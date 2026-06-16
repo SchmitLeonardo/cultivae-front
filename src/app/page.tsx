@@ -160,8 +160,8 @@ export default function Home() {
 
       {/* Categorias */}
       <div className="space-y-4 w-[90%] mx-auto py-4">
-        <div className="border-b border-neutral-200">
-          <h1 className="text-[24px] w-full max-w-200px py-4 font-light">
+        <div className="border-b border-neutral-200 mb-6">
+          <h1 className="text-[24px] w-full max-w-200px py-2 font-light">
             Categorias
           </h1>
         </div>
@@ -183,8 +183,8 @@ export default function Home() {
 
       {/* Produtores */}
       <div className="w-[90%] mx-auto py-4">
-        <div className="border-b border-neutral-200 justify-between flex items-center">
-          <h1 className="text-[24px] w-full max-w-200px py-4 font-light">
+        <div className="border-b border-neutral-200 justify-between flex items-center mb-6">
+          <h1 className="text-[24px] w-full max-w-200px py-2 font-light">
             Conheça nossos produtores
           </h1>
           <Link href="/producers" className="w-full">
@@ -198,8 +198,8 @@ export default function Home() {
 
       {/* Produtos */}
       <div className="w-[90%] mx-auto py-4 pb-16">
-        <div className="border-b border-neutral-200 justify-between flex items-center">
-          <h1 className="text-[24px] w-full max-w-200px py-4 font-light">
+        <div className="border-b border-neutral-200 justify-between flex items-center mb-6">
+          <h1 className="text-[24px] w-full max-w-200px py-2 font-light">
             Da horta para a sua mesa
           </h1>
           <Link href="/products" className="w-full">
